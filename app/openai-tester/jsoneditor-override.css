@@ -1,0 +1,17 @@
+/* Override JSON Editor styles for cyberpunk theme */
+.jse-theme-dark {
+  --jse-background-color: #1a1a2e;
+  --jse-text-color: #00ffff;
+  --jse-separator-color: #4a5568;
+  --jse-key-color: #ff00ff;
+  --jse-value-color: #00ffff;
+  --jse-select-background: #2d3748;
+  --jse-select-text-color: #00ffff;
+  --jse-tag-background: #4a5568;
+  --jse-tag-color: #00ffff;
+}
+
+.jse-main {
+  height: 100%;
+  font-family: 'Courier New', monospace;
+} 

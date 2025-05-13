@@ -83,7 +83,7 @@ export default function ParseEvent() {
             </li>
           </ul>
           
-          <pre className="bg-gray-100 p-3 rounded">{JSON.stringify(event, null, 2)}</pre>
+          <pre className="bg-gray-100 p-3 rounded text-black">{JSON.stringify(event, null, 2)}</pre>
         </div>
       )}
     </div>

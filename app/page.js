@@ -25,6 +25,12 @@ export default function Home() {
         >
           Audio & Speech Features
         </Link>
+        <Link
+          href="/realtime-chat"
+          className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-3 px-6 rounded-md transition duration-200 block text-center"
+        >
+          Realtime Chat
+        </Link>
       </div>
     </div>
   );

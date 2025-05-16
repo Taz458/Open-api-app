@@ -33,6 +33,12 @@ export default function Home() {
             Realtime Chat
           </Link>
           <Link
+          href="/image-analyzer"
+          className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-md transition duration-200 block text-center"
+        >
+          Image Analyzer
+        </Link>
+          <Link
             href="/image-generation"
             className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-6 rounded-md transition duration-200 block text-center w-full"
           >

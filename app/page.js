@@ -44,6 +44,12 @@ export default function Home() {
           >
             Image Generation
           </Link>
+          <Link
+            href="/file-analyzer"
+            className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-md transition duration-200 block text-center w-full"
+          >
+            File Analyzer
+          </Link>
         </div>
       </div>
     </main>

@@ -9,6 +9,12 @@ export default function Home() {
         </h1>
         <div className="space-y-4 w-full">
           <Link
+            href="/web-search"
+            className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-md transition duration-200 block text-center w-full"
+          >
+            Web Search Demo
+          </Link>
+          <Link
             href="/openai-tester"
             className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-3 px-6 rounded-md transition duration-200 block text-center w-full"
           >
@@ -44,24 +50,22 @@ export default function Home() {
           >
             Image Generation
           </Link>
-    
+
           <Link
             href="/file-analyzer"
             className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-md transition duration-200 block text-center w-full"
           >
             File Analyzer
           </Link>
-    
+
           <Link
             href="/product-description-generator"
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-md transition duration-200 block text-center w-full"
           >
             Multimodal Product Description Generator
           </Link>
-
         </div>
       </div>
     </main>
   );
 }
-

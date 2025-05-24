@@ -64,6 +64,13 @@ export default function Home() {
           >
             Multimodal Product Description Generator
           </Link>
+
+          <Link
+            href="/simple-realtime-chat"
+            className="bg-orange-600 hover:bg-orange-700 text-black font-bold py-3 px-6 rounded-md transition duration-200 block text-center w-full"
+          >
+            Simple Realtime Chat (no audio)
+          </Link>
         </div>
       </div>
     </main>
